@@ -16,6 +16,7 @@
 1. Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
 ![image](https://user-images.githubusercontent.com/83681139/160327775-6329af03-70cf-44ee-9486-c76d0b2fbe27.png)
 ## Berikut Codinganya:
+```
 <html>
 <head>
     <title>Drop-down Menu</title>
@@ -62,7 +63,9 @@
 </div>
 </body>
 </html>
+```
 ## Style.css
+```
 *
 {
     padding: 0;
@@ -74,7 +77,6 @@ body
     background-image: url(alam.jpg);
     background-size: cover;
     background-position: center;
-
     font-family: sans-serif;
 }
 .menu-bar
@@ -93,7 +95,6 @@ body
     width: 120px;
     margin: 15px;
     padding: 15px;
-
 }
 .menu-bar ul li a
 {
@@ -104,13 +105,11 @@ body
 {
     background: #2bad0d;
     border-radius: 3px;
-
 }
 .menu-bar .fa
 {
     margin-right: 8px;
 }
-
 .sub-menu-1
 {
     display: none;
@@ -145,7 +144,6 @@ body
 {
     color: #b2ff00;
 }
-
 .fa-angle-right
 {
     float: right;
@@ -162,3 +160,4 @@ body
     margin-left: 140px;
     background: rgba(0,100,0);
 }
+```
